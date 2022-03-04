@@ -11,8 +11,6 @@ class ApiApplicationTests {
 	@Test
 	void contextLoads() {
 		
-		int a = 15*6;
-		System.out.println(a);
 		Controller service = new Controller(); 
 		assertNull(service.wellcome().isEmpty());
 	}
