@@ -12,9 +12,7 @@
 	* SonarLint On-The-Fly
 	* SonarLint Report
 	* SonarLint Rule Description
-	
-	Aquí se puede observar el resultado 
-	
+	Se visualiza el siguiente resultado al activar las pestañas indicadas
 	![imagen analisis](/imgs/Selection_149.png)
 
 5 - Activar Análisis: para realizar analisis al código se procede a dar click derecho sobre el proyecto > SonarLint > Analizar
