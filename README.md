@@ -1,9 +1,8 @@
 # Configuración SonarLint
+ ![alt text](/imgs/images.png)
 
 
 1 - Dirigirse a Ayuda > marketplace -> buscar sonarLint en Eclipse
-                  
-  ![alt text](/imgs/images.png)
 
 2 - una vez instalado reinicio del IDE
 
