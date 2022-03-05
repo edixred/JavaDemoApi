@@ -16,8 +16,8 @@
 	* SonarLint Report
 	* SonarLint Rule Description
 	Se visualiza el siguiente resultado al activar las pestañas indicadas
-	
-	![imagen analisis](/imgs/sonarLint3.png)
+
+![imagen analisis](/imgs/sonarLint3.png)
 
 5 - Activar Análisis: para realizar analisis al código se procede a realizar click derecho sobre el proyecto > SonarLint > Analizar
 
