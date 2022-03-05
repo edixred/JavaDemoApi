@@ -71,6 +71,5 @@
 					</sonar.host.url>
 			</properties>
 		</profile>
-</profiles>
-
+	</profiles>
 </project>
