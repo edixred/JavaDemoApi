@@ -39,7 +39,7 @@ _______________________________________________
  ![imagen analisis](/imgs/Selection_150.png)
  
  _______________________________________________
- <a name="item1"></a>
+ <a name="item2"></a>
 
  # Configuración SonarQube
  
@@ -112,7 +112,7 @@ Otra configuración adicional que se debe agregar en **pom.xml** el  para realiz
  
  ![alt text](/imgs/sonar12.png)
  
-<a name="item1"></a>
+<a name="item2"></a>
 
  # Configuracion Reportes Sonarqube
 
