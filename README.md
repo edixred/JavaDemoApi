@@ -1,3 +1,12 @@
+## Índice de contenidos
+* [Configuración SonarLint](#item1)
+* [Configuración SonarQube](#item2)
+* [onfiguracion Reportes Sonarqube](#item3)
+
+_______________________________________________
+
+<a name="item1"></a>
+
 # Configuración SonarLint
 
  ![alt text](/imgs/images.png)
@@ -30,6 +39,8 @@
  ![imagen analisis](/imgs/Selection_150.png)
  
  _______________________________________________
+ <a name="item1"></a>
+
  # Configuración SonarQube
  
  ![alt text](/imgs/sonar1.png)
@@ -101,3 +112,7 @@ Otra configuración adicional que se debe agregar en **pom.xml** el  para realiz
  
  ![alt text](/imgs/sonar12.png)
  
+<a name="item1"></a>
+
+ # Configuracion Reportes Sonarqube
+
