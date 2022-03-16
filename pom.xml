@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>apiserver</groupId>
-	<artifactId>api</artifactId>
+	<artifactId>apidemoGithubAction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>api</name>
+	<name>apiDEMO</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -67,11 +67,9 @@
 				</activation>
 				<properties>
 					<sonar.host.url>
-					http://ip172-18-0-48-c8o9o77njsv000crsggg-9200.direct.labs.play-with-docker.com/
+					http://ip172-18-0-89-c8o8qj5mrepg00avpcv0-9003.direct.labs.play-with-docker.com/
 					</sonar.host.url>
-          <sonar.login>
-          3644dd2cc645cd256709e38bc0901bc50885c957
-          </sonar.login>
+					<sonar.login>c612134dcac79f69c60b4dbcf3a248f9620ef8d5</sonar.login>
 			</properties>
 		</profile>
 	</profiles>
