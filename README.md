@@ -1,8 +1,9 @@
-## Índice de contenidos
+# Índice de contenidos
 * [Configuración SonarLint](#item1)
 * [Configuración SonarQube](#item2)
 * [Configuracion Reportes Sonarqube](#item3)
 
+_______________________________________________
 _______________________________________________
 
 <a name="item1"></a>
