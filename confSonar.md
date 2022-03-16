@@ -1,3 +1,11 @@
+# Índice de contenidos
+* [Configuración SonarLint](./README.md)
+* [Configuración SonarQube](./confSonar.md)
+* [Configuracion Reportes Sonarqube](./confReporteSonar.md)
+
+_______________________________________________
+_______________________________________________
+
  # Configuración SonarQube
  
  ![alt text](/imgs/sonar1.png)
