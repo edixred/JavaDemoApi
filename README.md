@@ -127,10 +127,10 @@ Se descarga el archivo sonar-cnes-report.jar que se encuentra en el reposiorio y
  ```
 
  Donde:
- -jar: Es el nombre del archivo 
- -t: Es el token del proyecto
- -s: Es el servidor 
- -p: Es el nombre del proyecto analizado 
- -r: Es el nombre y tipo de documento del reporte que se va a generar 
+ * **-jar**: Es el nombre del archivo 
+ * **-t:** Es el token del proyecto
+ * **-s:** Es el servidor 
+ * **-p:** Es el nombre del proyecto analizado 
+ * **-r:** Es el nombre y tipo de documento del reporte que se va a generar 
 
  Una vez ejecutado este comando con sus respectivas configuraciones se obtiene el reporte en pdf de análisis de codigo en PDF.
