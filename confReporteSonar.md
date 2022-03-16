@@ -1,10 +1,12 @@
 # Índice de contenidos
 * [Configuración SonarLint](./README.md)
 * [Configuración SonarQube](./confSonar.md)
-* [Configuracion Reportes Sonarqube](./confReporteSonar.md)
+* [Configuracion Reportes Sonarqube](#item1)
 
 _______________________________________________
 _______________________________________________
+
+<a name="item1"></a>
 
  # Configuracion Reportes Sonarqube
 
