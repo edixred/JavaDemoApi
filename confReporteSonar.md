@@ -14,16 +14,15 @@ Para obtener un reporte en pdf de un análisis en SonarQube es necesario que ya 
 
 Una vez el análisis ya esté listo como se observa en la siguiente figura.
 
-Se descarga el archivo sonar-cnes-report.jar que se encuentra en el reposiorio y se ejecuta el siguente comando:
-```
- 	java -jar sonar-cnes-report.jar -t eaa48820d1b9c21bd24446ff76a63fd55c75a970 -s https://172.168.10.26:9100 -p alpopular -r ./ReporteAlPopular.docx
- ```
+![imagen analisis](/imgs/proyectAnalis.JPG)
 
- Donde:
- * **-jar**: Es el nombre del archivo 
- * **-t:** Es el token del proyecto
- * **-s:** Es el servidor 
- * **-p:** Es el nombre del proyecto analizado 
- * **-r:** Es el nombre y tipo de documento del reporte que se va a generar 
+Se descarga el archivo sonar-cnes-report.jar que se encuentra en el reposiorio y se ejecuta cnesreport:
+* En modo complemento, copiar el archivo jar en `/opt/sonarqube/extensions/plugins`, una vez copiado se debe reiniciar sonarqube y se habilitará una opcion "Más" en sonarqube. Posteriormente se debe seleccionar "Informe CNES"
 
- Una vez ejecutado este comando con sus respectivas configuraciones se obtiene el reporte en pdf de análisis de codigo en PDF.
+![imagen analisis](/imgs/mas.JPG)
+
+Al seleccionar "Informe CNES" se muestra una serie de opciones a configurar para generar el reporte en formato comprimido.
+
+![imagen analisis](/imgs/informe.JPG)
+
+Si se selecciona la opcion de generar de descarga automaticamente el reporte.
