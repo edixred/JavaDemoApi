@@ -2,8 +2,8 @@
 
 # Índice de contenidos
 * [Configuración SonarLint](#item1)
-* [Configuración SonarQube](./confSonar.md)
-* [Configuracion Reportes Sonarqube](./confReporteSonar.md)
+* [Configuración SonarQube](./doc/confSonar.md)
+* [Configuracion Reportes Sonarqube](./doc/confReporteSonar.md)
 
 _______________________________________________
 _______________________________________________
