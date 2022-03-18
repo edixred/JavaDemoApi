@@ -16,7 +16,7 @@ Una vez el análisis ya esté listo como se observa en la siguiente figura.
 
 ![imagen analisis](/imgs/proyectAnalis.JPG)
 
-Se descarga el archivo sonar-cnes-report.jar que se encuentra en el reposiorio y se ejecuta cnesreport:
+Se descarga el archivo [sonar-cnes-report.jar](./sonar-cnes-report-4.1.0.jar) que se encuentra en el reposiorio y se ejecuta cnesreport:
 * En modo complemento, copiar el archivo jar en `/opt/sonarqube/extensions/plugins`, una vez copiado se debe reiniciar sonarqube y se habilitará una opcion "Más" en sonarqube. Posteriormente se debe seleccionar "Informe CNES"
 
 ![imagen analisis](/imgs/copysonar.JPG)
