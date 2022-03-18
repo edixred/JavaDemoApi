@@ -1,3 +1,5 @@
+![imagen analisis](/imgs/sonarqube_logo_720.webp)
+
 # Índice de contenidos
 * [Configuración SonarLint](#item1)
 * [Configuración SonarQube](./confSonar.md)
