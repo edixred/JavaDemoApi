@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.6.5</version>
+		<relativePath/>
 	</parent>
 	<groupId>apiserver</groupId>
 	<artifactId>apidemoGithubAction</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>apiDEMO</name>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<name>api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -50,6 +50,11 @@
 			<artifactId>sonar-maven-plugin</artifactId>
 			<version>3.2</version>
 		</dependency>
+		<dependency>
+		    <groupId>org.jacoco</groupId>
+		    <artifactId>jacoco-maven-plugin</artifactId>
+		    <version>0.8.3</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -62,14 +67,14 @@
 	<profiles>
 		<profile>
 			<id>sonar</id>
-				<activation>
-					<activeByDefault>true</activeByDefault>
-				</activation>
-				<properties>
-					<sonar.host.url>
-					http://ip172-18-0-30-c8pmqffnjsv000d21cc0-9200.direct.labs.play-with-docker.com/
-					</sonar.host.url>
-					<sonar.login>982a2d3a9d10bede6e90d06db11ea6faade29c6b</sonar.login>
+			<activation>
+			<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<sonar.host.url>
+				http://20.127.50.232/
+				</sonar.host.url>
+				<sonar.login>1dbed38222f753f2b94b7bd287f4d9bd0d81e66e</sonar.login>
 			</properties>
 		</profile>
 	</profiles>
