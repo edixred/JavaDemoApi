@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-dev
+  namespace: ns-seratic-dev
+data:
+  port: "8080"
